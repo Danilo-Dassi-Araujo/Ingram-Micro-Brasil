@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    width: 100%;    
+    height: 48px;
+    background-color: #2571B7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 0 20px;
+}
+
+.menu_burguer{
+    display: flex;
+    height: 18px;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 24px;
+}
+
+.menu_burguer_line{
+    width: 100%;
+    height: 2px;
+    background-color: #FFFFFF;
+}
+
+.btn_nav {
+    background-color: #002050;
+    color: #fff;
+    border-style: none;
+    padding: 8px 15px
+}
