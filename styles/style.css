@@ -15,6 +15,7 @@
     align-items: center;
     position: fixed;
     padding: 0 20px;
+    z-index: 1;
 }
 
 .menu_burguer{
@@ -35,5 +36,53 @@
     background-color: #002050;
     color: #fff;
     border-style: none;
-    padding: 8px 15px
+    padding: 8px 15px;
+    font-size: 0.875em;
+}
+
+/* HERO MENU*/
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/img_hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    opacity: 0.9;
+
+}
+.titulo{
+    font-size: 2.625em;
+    color: #fff;
+}
+
+.texto_hero{
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 24px;
+    letter-spacing: 0px;
+    line-height: 1.5;
+}
+
+.btn_hero{
+    background-color: #00A4EF;
+    width: 188px;
+    height: 52px;
+    border-style: none;
+    color: #fff;
+    font-size: 1.3125em;
+    margin-top: 60px;
+
+}
+
+.img_hero_final{
+    position: absolute;
+    bottom: 28px;
 }
