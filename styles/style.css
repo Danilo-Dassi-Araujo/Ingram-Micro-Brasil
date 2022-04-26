@@ -38,6 +38,60 @@
 
 
 /*
+    cases
+*/
+
+.title_case1{
+    text-align: left;
+    font: normal normal 600 15px/20px Segoe UI;
+    letter-spacing: 0px;
+    color: #7FBA00;
+    opacity: 1;
+}
+
+.title_case2{
+    text-align: left;
+    font: normal normal 600 15px/20px Segoe UI;
+    letter-spacing: 0px;
+    color: #00A4EF;
+    opacity: 1;
+}
+
+.title_case3{
+    text-align: left;
+    font: normal normal 600 15px/20px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFB900;
+    opacity: 1;
+}
+
+.btn_case{
+    background-color: transparent;
+    padding: 7px 6px;
+}
+
+.btn_green{
+    border: #7FBA00 1px solid;
+    color: #7FBA00;
+}
+
+.btn_blue{
+    border: #00A4EF 1px solid;
+    color: #00A4EF;
+}
+
+.btn_orange{
+    border: #FFB900 1px solid;
+    color: #FFB900;
+}
+
+/*
+   fim cases
+*/
+
+
+
+/*
     FIM ESTILOS GERAISSSSSSSSSSSSSS     FIM ESTILOS GERAISSSSSSSSSSSSSS
     FIM ESTILOS GERAISSSSSSSSSSSSSS     FIM ESTILOS GERAISSSSSSSSSSSSSS
 */
@@ -195,3 +249,62 @@
     opacity: 1;
 }
 
+/*     CASES CASES CASES         */
+
+
+.cases{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.h2_case{
+    text-align: left;
+    font: normal normal 600 24px/32px Segoe UI;
+    letter-spacing: 0px;
+    color: #2571B7;
+    opacity: 1;
+}
+
+.case_container{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+    margin-top: 20px;
+}
+
+.case{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.description_case{
+    text-align: left;
+    font: normal normal normal 12px/18px Segoe UI;
+    letter-spacing: 0px;
+    color: #737373;
+    opacity: 1;
+}
+
+.container_case1:after{
+    content: '';
+    width: calc(100% - 40px);
+    height: 3px;
+    background-color: #DEDEDE;
+    position: absolute;
+    bottom: -15px;
+}
+.container_case2:after{
+    content: '';
+    width: calc(100% - 40px);
+    height: 3px;
+    background-color: #DEDEDE;
+    position: absolute;
+    bottom: -15px;
+}
