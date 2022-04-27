@@ -357,3 +357,23 @@
     border-bottom: 0px;
 }
 
+/*    IMAGE TEXT BACKGROUND      */
+
+.image_text{
+    margin-top: 60px;
+}
+
+.img_background{
+    background-image: url('/img/img_background_text.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.description_image{
+    text-align: center;
+    font: normal normal normal 24px/36px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 42px 18px;
+}
